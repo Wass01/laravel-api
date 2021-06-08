@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('main')
+@section('content')
   <main id="root">
     <ul>
       <li v-for="sport in sports" :key="sport.id">
